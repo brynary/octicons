@@ -4,6 +4,7 @@
   "publishConfig": {
     "registry": "no registry, don't publish from this package.json."
   },
+  "type": "module",
   "scripts": {
     "build": "script/build.js --input icons/**/*.svg --output lib/build/data.json",
     "changeset:version": "changeset version && script/version",
